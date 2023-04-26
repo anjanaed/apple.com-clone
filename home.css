@@ -1,9 +1,6 @@
 *{
     margin: 0;
 }
-body{
-  margin: 0;
-}
 
 .navbar{
     padding: 0.82vw;
@@ -63,11 +60,11 @@ body{
 
 }
 .dropbtn{
-  padding-left: 9px;
+  padding-left: 5%;
 }
 
 .dropbtn a{
-  font-size: 12px;
+  font-size: 0.8vw;
 }
 .dropdown:hover .dropbtn a {
   color: white;
@@ -79,7 +76,7 @@ body{
   display: none;
   position: absolute;
   width: 100%;
-  top: 30px;
+  top: 80%;
   background-color:rgb(44, 44, 44);
   left: 0;
 }
@@ -92,7 +89,7 @@ body{
   background-color: rgb(44, 44, 44) !important;
 }
 .dropcontitle{
-  font-size: 11px;
+  font-size: 0.8vw;
   font-family: Arial;
   color: rgb(182, 182, 182);
 }
@@ -103,8 +100,8 @@ body{
   padding: 0;
   background-color: inherit;
   height: auto;
-  padding-top: 45px;
-  padding-bottom: 30px;
+  padding-top: 3%;
+  padding-bottom: 2%;
   
 }
 .column1{
@@ -120,31 +117,31 @@ body{
 .column2{
   float: left;
   width: 15%;
-  padding-left: 50px;
+  padding-left: 5%;
   height: auto;
   padding-top: 0;
 }
 .column1 a {
   float: none;
-  padding: 5px;
+  padding: 2%;
   font-weight: 600;
   text-decoration: none;
   display: block;
   text-align: left;
-  margin-left: -4px;
+  margin-left: -2%;
   color: rgb(225, 225, 225);
-  font-size: 21px;
+  font-size: 1.5vw;
   font-family: Arial;
 }
 .column2 a {
   float: none;
   color: rgb(225, 225, 225);
-  padding: 5px;
-  margin-left: -4px;
+  padding: 2%;
+  margin-left: -2%;
   text-decoration: none;
   display: block;
   text-align: left;
-  font-size: 12px;
+  font-size: 1.5vw;
   font-weight: 550;
   font-family: Arial;
 }
@@ -163,12 +160,13 @@ font-weight: 600;
     background-color: black;
     text-align: center;
     padding-top: 5%;
-    height: 588px;
+    overflow: hidden;
+    width: 100%;
 }
 .title{
     color: white;
     text-align: center;
-    font-size: 60px;
+    font-size: 4.46vw;
     letter-spacing: 0;
     font-family: Arial;
     font-weight: 600;
@@ -190,15 +188,16 @@ font-weight: 600;
 }
 
 .i14{
-    width: 850px;
-    padding-top: 12px;
+    width: 56%;
+    padding-top: 1.8%;
 }
 .i15{
-    width: 879px;
-    padding-top: 25.5px;
+    width: 57.9%;
+    height: auto;
+    padding-top: 1.8%;
 }
 .i16{
-    width: 750px;
+    width: 52%;
 }
 .arrow {
     border: solid #1E90FF;
@@ -213,10 +212,10 @@ font-weight: 600;
     text-align: center;
     padding-top: 5%;
     background-color: #fafafa;
-    height: 588px;
+    height: 80%;
   }
   .title2{
-    font-size: 60px;
+    font-size: 5vw;
     letter-spacing: 0;
     font-family: Arial;
     font-weight: 547;
@@ -227,7 +226,7 @@ font-weight: 600;
     background-color: black;
     text-align: center;
     line-height: 30px;
-    height: 588px;
+    width: 100%;
   }
   .title3{
     font-size: 41px;
@@ -261,14 +260,14 @@ font-weight: 600;
     width: 49%;
     float: left;
     text-align: center;
-    margin: 10px;
-    padding-bottom: 20px;
-    padding-top: 60px;
+    margin: 0.6%;
+    padding-bottom: 2%;
+    padding-top: 4%;
+    max-height: 50%;
     margin-right: 0;
-    height: 500px;
 }
 .wwdc{
-    width: 600px;
+    width: 80%;
 }
 #co4{
     color: white;
@@ -278,18 +277,18 @@ font-weight: 600;
     line-height: 25px;
 }
 .div4-2{
-    width: 49%;
-    float: right;
+    width: 47.1%;
+    float: left;
     text-align: center;
-    margin: 10px;
-    margin-left: 0;
+    margin: 0.6%;
+    margin-left: 0.6%;
     background-color: rgba(251,251,251,255);
-    padding-bottom: 20px;
-    padding-top: 60px;
-    height: 500px;
+    padding-bottom: 1.38%;
+    padding-top: 4.1%;
+    max-height: 50%;
 }
 .ipad{
-    width: 380px;
+    width: 55%;
 }
 .title4{
     font-size: 41px;
@@ -308,20 +307,20 @@ font-weight: 600;
   .div4-3{
     background-color: black;
     width: 49%;
-    height: 500px;
+    max-height: 50%;
     float: left;
     text-align: center;
-    margin: 10px;
+    margin: 0.6%;
     margin-right: 0;
     margin-top: 0;
-    padding-top: 60px;
+    padding-top: 5%;
   }
   .mac{
-    width: 600px;
+    width: 80%;
   }
   .pod{
-    width: 710px;
-    padding-top: 40.5px;
+    width: 93%;
+    padding-top: 5.5%;
   }
   .div4-4{
     background-image: url(resources/arcade.jpg);
@@ -329,11 +328,12 @@ font-weight: 600;
     background-size: cover;
     float: left;
     width: 49%;
-    height: 600px;
+    max-height: 50%;
     text-align: center;
-    margin: 10px;
+    margin: 0.6%;
+    padding-bottom: 28%;
     margin-right: 0;
-    padding-top: 30px;
+    padding-top: 5%;
     margin-top: 0;
   }
   .titlelink1{
@@ -348,30 +348,30 @@ font-weight: 600;
     color: #1E90FF;
 }
 .card{
-    width: 550px;
+    width: 50%;
 }
 .div4-5{
     width: 49%;
     float: right;
     text-align: center;
-    margin: 10px;
+    margin: 0.6%;
     margin-left: 0;
     margin-top: 0;
     background-color: rgba(250,250,250,255);
-    padding-bottom: 20px;
-    padding-top: 60px;
-    height: 550px;
+    padding-bottom: 8.5%;
+    padding-top: 5%;
+    max-height: 50%;
 }
 
 .slider{
   height: 700px;
-  width: 1200px;
+  width: 85%;
   padding-top: 10px;
   overflow: hidden;
   margin: auto;
 }
 .slides{
-  width: 7200px;
+  width: 500%;
   display: flex;
 }
 .slides input{
@@ -379,7 +379,6 @@ font-weight: 600;
 }
 
 .slide{
-  width: 1200px;
   height: 1200px;
   transition: 2s;
   position: relative;
@@ -388,16 +387,15 @@ font-weight: 600;
 }
 
 .slide img{
-  width: 1200px;
-  height: 670px;
+  width: 100%;
+  height: 55%;
 }
 .manualnav{
   position: absolute;
-  width: 800px;
+  width: 100%;
   margin-top: 680px;
   display: flex;
-  justify-content: center;
-  padding-left: 200px;
+  padding-left: 35%;
 }
 .manualbtn{
   border: none;
@@ -409,7 +407,7 @@ font-weight: 600;
   transition: 1s;
 }
 .manualbtn:not(:last-child){
-  margin-right: 20px;
+  margin-right: 1.5%;
 }
 .manualbtn:hover{
   background-color: black;
@@ -420,28 +418,27 @@ font-weight: 600;
   margin-left: 0;
 }
 #radio2:checked ~ .first{
-  margin-left: -1200px;
+  margin-left: -24.9%;
 }
 #radio3:checked ~ .first{
-  margin-left: -2400px;
+  margin-left: -45.2%;
 }
 #radio4:checked ~ .first{
-  margin-left: -3600px;
+  margin-left: -65.4%;
 }
 #radio5:checked ~ .first{
-  margin-left: -4800px;
+  margin-left: -85.6%;
 }
 #radio6:checked ~ .first{
-  margin-left: -6000px;
+  margin-left: -105.8%;
 }
 
 .autonav{
   position: absolute;
   display: flex;
-  width: 800px;
+  width: 100%;
   margin-top: 680px;
-  justify-content: center;
-  padding-left: 200px;
+  padding-left: 35%;
 }
 
 .autonav div{
@@ -452,7 +449,7 @@ font-weight: 600;
 }
 
 .autonav div:not(:last-child){
-  margin-right: 20px;
+  margin-right: 1.5%;
 }
 
 #radio1:checked ~ .autonav .autonavbtn1{
@@ -511,11 +508,11 @@ font-weight: 600;
 }
 .div5{
   background-color: #f5f5f7;
-  padding-top: 20px;
+  padding-top: 2%;
   text-align: left;
-  padding-left: 200px;
-  padding-bottom: 20px;
-  padding-right: 202px;
+  padding-left: 13.7%;
+  padding-bottom: 1%;
+  padding-right: 13.8%;
   overflow: hidden;
 }
 .des{
@@ -528,17 +525,17 @@ font-weight: 600;
   color: rgb(97, 97, 97);
 }
 .hr{
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 13.7%;
+  padding-right: 13.8%;
 }
 
 .div5-1{
   font-size: 12px;
-  width: 212px;
+  width: 20%;
   float: left;
   font-family: Arial;
   color: #545457;
-  line-height: 25px;
+  line-height: 205%;
   padding-bottom: 85px;
 }
 #h3title{
@@ -550,9 +547,9 @@ font-weight: 600;
 }
 .div5-2{
   position: absolute;
-  padding-top: 450px;
+  padding-top: 31%;
   font-size: 12px;
   font-family: Arial;
   color: #545457;
-  padding-bottom: 50px;
+  padding-bottom: 2%;
 }
